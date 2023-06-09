@@ -1,0 +1,13 @@
+.project{
+    &__container{
+        border: 1px solid #ccc;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    &__image{
+        width: 50%;
+        min-width: 200px;
+        border-radius: 10px;
+    }
+}
