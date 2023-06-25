@@ -1,5 +1,20 @@
 [
   {
+    "name": "This portfolio site!",
+    "description": "You're looking at it right now! It's a website to showcase my projects and skills.",
+    "link": "#",
+    "github": "https://github.com/brandonyuh/portfolio",
+    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub"]
+  },
+  {
+    "name": "Better Bus Maps",
+    "description": "Better Bus Maps shows bus route information on a map in a clearer way for the city of Vancouver. It also shows the bus stops and the buses that are coming to the stop. It also shows the bus stops near your location.",
+    "link": "https://brandonyuh.me/BetterBusMaps/",
+    "image": "https://brandonyuh.me/portfolio/bbm.png",
+    "github": "https://github.com/brandonyuh/better-bus-maps",
+    "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data", "Axios", "Postman", "Vector Graphics"]
+  },
+  {
     "name": "Batch object detection with C#, Emgu, and RabbitMQ",
     "description": "Uses C# and Computer Vision to detect objects in a folder of images. It uses Emgu and a pre-trained model to detect objects. It can detect multiple objects at once. It uses RabbitMQ and runs separately as a client and server.",
     "image": "https://brandonyuh.me/portfolio/batchid.png",
@@ -14,24 +29,25 @@
     "skills": ["C#", "Emgu", "Git", "GitHub", "Computer Vision"]
   },
   {
+    "name": "Blazor WebAssembly with ASP.NET Core Web API",
+    "description": "The website is a shop that has a front and back end and products can be bought using Stripe. Also has an admin menu to add and remove products. Uses C# and Blazor WebAssembly to create a website. It uses ASP.NET Core Web API to get data from a database. Uses Bootstrap and Mudblazor for styling.",
+    "image": "https://brandonyuh.me/portfolio/blazorecommerce.png",
+    "github": "https://github.com/brandonyuh/Blazor-Ecommerce",
+    "skills": ["C#", "Git", "GitHub", "Stripe", "Blazor WebAssembly", "ASP.NET Core Web API", "HTML", "CSS", "Bootstrap", "Mudblazor"]
+  },
+  {
+    "name": "Angular Heroes",
+    "description": "An angular website with the ability to add and remove heroes using an API. It also has a search bar to search for heroes.",
+    "link": "https://brandonyuh.github.io/angular-hero-practice/heroes",
+    "image": "https://brandonyuh.me/portfolio/angularheroes.png",
+    "github": "https://github.com/brandonyuh/angular-hero-practice",
+    "skills": ["Angular", "Git", "GitHub", "HTML", "CSS", "TypeScript", "JavaScript"]
+  },
+  {
     "name": "Computer Vision Fingerprint Recognition",
     "description": "Trained an image set to recognize fingerprints using Python and yolov5.",
     "image": "https://brandonyuh.me/portfolio/fingerprint.png",
     "skills": ["Python", "Computer Vision"]
-  },
-  {
-    "name": "Better Bus Maps",
-    "description": "Better Bus Maps shows bus route information on a map in a clearer way for the city of Vancouver. It also shows the bus stops and the buses that are coming to the stop. It also shows the bus stops near your location.",
-    "link": "https://brandonyuh.me/BetterBusMaps/",
-    "image": "https://brandonyuh.me/portfolio/bbm.png",
-    "github": "https://github.com/brandonyuh/better-bus-maps",
-    "skills": ["ReactJS", "NodeJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub", "Google Maps API", "Geolocation data", "Axios", "Postman", "Vector Graphics"]
-  },
-  {
-    "name": "This portfolio site!",
-    "description": "You're looking at it right now! It's a website to showcase my projects and skills.",
-    "github": "https://github.com/brandonyuh/portfolio",
-    "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "SASS", "Git", "GitHub"]
   },
   {
     "name": "Random Noun Translator",

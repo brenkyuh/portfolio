@@ -18,7 +18,7 @@ function ProjectList({ filteredSkills }) {
     return (
       <>
         <h2>
-          Projects with:
+          Projects that include some of:
           {filteredSkills.map((skill) => {
             return (
               <span key={skill}>

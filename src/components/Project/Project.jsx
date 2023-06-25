@@ -3,11 +3,11 @@ import "./Project.scss";
 function Project({ project, filteredSkills, reverse }) {
   if (filteredSkills) {
     if (reverse) {
-      if (filteredSkills.every((skill) => project.skills.includes(skill))) {
+      if (filteredSkills.some((skill) => project.skills.includes(skill))) {
         return null;
       }
     } else {
-      if (!filteredSkills.every((skill) => project.skills.includes(skill))) {
+      if (!filteredSkills.some((skill) => project.skills.includes(skill))) {
         return null;
       }
     }

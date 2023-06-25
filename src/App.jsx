@@ -3,31 +3,36 @@ import "./App.scss";
 import ProjectList from "./components/ProjectList/ProjectList";
 import skills from "./json/skills.json";
 import interests from "./json/interests.json";
+import { useEffect } from "react";
 
 function App() {
-  //const encEmail = "YnJhbmRvbnl1aEBnbWFpbC5jb20=";
-  const encEmail = "YnJlbmt5dWhAZ21haWwuY29t";
-  const encPhone = "MTc3ODcwOTUyMzk=";
+  //let encEmail = "YnJhbmRvbnl1aEBnbWFpbC5jb20="; //default email
+  //let encEmail = "YnJlbmt5dWhAZ21haWwuY29t";
+  //const encPhone = "MTc3ODcwOTUyMzk=";
 
   const [filteredSkills, setFilteredSkills] = useState([]);
 
+  useEffect(() => {
+    document.title = process.env.REACT_APP_NAME + " Portfolio";
+  }, []);
+
   return (
     <>
-      <h1>Bren Yuh</h1>
+      <h1>{process.env.REACT_APP_NAME}</h1>
       <div>
-        <a href={"mailto:".concat(atob(encEmail))}>Email: {atob(encEmail)}</a>
+        <a href={"mailto:" + process.env.REACT_APP_USERNAME + "@gmail.com"}>Email: {process.env.REACT_APP_USERNAME + "@gmail.com"}</a>
       </div>
-      <div>
+      {/* <div>
         <a href={"tel:".concat(atob(encPhone))}>Phone: {atob(encPhone)}</a>
-      </div>
+      </div> */}
       <div>
-        <a href="https://www.linkedin.com/in/brenkyuh" rel="noopener noreferrer" target="_blank">
-          LinkedIn: https://www.linkedin.com/in/brenkyuh/
+        <a href={"https://www.linkedin.com/in/" + process.env.REACT_APP_USERNAME} rel="noopener noreferrer" target="_blank">
+          LinkedIn: https://www.linkedin.com/in/{process.env.REACT_APP_USERNAME}/
         </a>
       </div>
       <div>
-        <a href="https://github.com/brenkyuh" rel="noopener noreferrer" target="_blank">
-          GitHub: https://github.com/brenkyuh
+        <a href={"https://github.com/" + process.env.REACT_APP_USERNAME} rel="noopener noreferrer" target="_blank">
+          GitHub: https://github.com/{process.env.REACT_APP_USERNAME}
         </a>
       </div>
       <div>🍁Canadian Citizen</div>
